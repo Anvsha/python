@@ -1,0 +1,28 @@
+#Write your code below this row 👇
+
+numbers = [1,2,3,4,5]
+# for loop
+for number in numbers:
+ print(number)
+# range
+for number in range (1,10):
+ print(number)
+# range with gap
+for number in range (1,10,3):
+ print(number)
+# sum of 1 to 100 using for loop and range function
+total = 0
+for number in range (1,101):
+  total += number
+print(total)
+#  sum of the even number program 1
+total_even_number=0
+for number in range (0,101,2):
+ total_even_number += number
+print (total_even_number)
+#  sum of the even number program 2
+total_even =0
+for number in range(1,101):
+  if number %2 ==0:
+   total_even += number
+print (total_even)  
